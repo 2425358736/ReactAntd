@@ -45,24 +45,13 @@ class SiderDemo extends React.Component {
               <Link to="/menuLeft" style={{ color: '#e2e3db' }} ><Icon type="desktop" />Menu</Link>
             </Menu.Item>
             <SubMenu
-              key="sub1"
-              title={<span><Icon type="user" /><span>User</span></span>}
+              key="Form"
+              title={<span><Icon type="user" /><span>Form</span></span>}
             >
-              <Menu.Item key="3">Tom</Menu.Item>
-              <Menu.Item key="4">Bill</Menu.Item>
-              <Menu.Item key="5">Alex</Menu.Item>
+              <Menu.Item key="WrappedRegistrationForm">
+                <Link to="/wrappedRegistrationForm" style={{ color: '#e2e3db' }} >WrappedRegistrationForm</Link>
+              </Menu.Item>
             </SubMenu>
-            <SubMenu
-              key="sub2"
-              title={<span><Icon type="team" /><span>Team</span></span>}
-            >
-              <Menu.Item key="6">Team 1</Menu.Item>
-              <Menu.Item key="8">Team 2</Menu.Item>
-            </SubMenu>
-            <Menu.Item key="9">
-              <Icon type="file" />
-              <span>File</span>
-            </Menu.Item>
           </Menu>
         </Sider>
         <Layout>
@@ -73,7 +62,9 @@ class SiderDemo extends React.Component {
                 return <Breadcrumb.Item key={i}>{cru}</Breadcrumb.Item>;
               })}
             </Breadcrumb>
-            <RouterConfig />
+            <div style={{ padding: 24, background: '#fff' }}>
+              <RouterConfig />
+            </div>
           </Content>
           <Footer style={{ textAlign: 'center' }}>
             Ant Design ©2016 Created by Ant UED

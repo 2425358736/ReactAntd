@@ -1,6 +1,8 @@
 import React from 'react';
 import { Table } from 'antd';
 import { apiGet } from '../api/request';
+// Promise
+import request from '../utils/request';
 
 class TableCom extends React.Component {
   constructor(props) {
@@ -67,6 +69,8 @@ class TableCom extends React.Component {
     const data = await apiGet(
       'http://localhost:8000/test.json',
     );
+    const datatwo = request('http://localhost:8000/test.json');
+    console.log(datatwo);
     console.log('请求结束了');
     console.log(data);
     this.setState({
