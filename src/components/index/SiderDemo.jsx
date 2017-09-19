@@ -85,6 +85,14 @@ class SiderDemo extends React.Component {
                 </span>
               </Link>
             </Menu.Item>
+            <Menu.Item key="Tree">
+              <Link to="/tree" style={{ color: '#e2e3db' }} >
+                <Icon type="share-alt" />
+                <span>
+                  Tree
+                </span>
+              </Link>
+            </Menu.Item>
             <SubMenu
               key="Form"
               title={<span><Icon type="user" /><span>Form</span></span>}
