@@ -67,7 +67,7 @@ class TableCom extends React.Component {
     console.log('刷新方法');
     console.log('请求开始');
     const data = await apiGet(
-      'http://localhost:8000/test.json',
+      'test.json',
     );
     const datatwo = request('http://localhost:8000/test.json');
     console.log(datatwo);

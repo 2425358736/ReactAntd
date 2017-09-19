@@ -112,7 +112,7 @@ class MenuCom extends React.Component {
   }
   initialization = async () => {
     let MenuList = await apiGet(
-      'http://localhost:8000/Tree.json',
+      'Tree.json',
     );
     MenuList = MenuList.data;
     this.setState({
