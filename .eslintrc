@@ -23,7 +23,8 @@
     "no-cond-assign": [0],
     "import/no-unresolved": [0],
     "require-yield": [1],
-    "linebreak-style":[0]
+    "linebreak-style":[0],
+    "react/sort-comp": 1
   },
   "parserOptions": {
     "ecmaFeatures": {
