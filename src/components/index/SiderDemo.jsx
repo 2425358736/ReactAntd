@@ -101,6 +101,14 @@ class SiderDemo extends React.Component {
                 <Link to="/wrappedRegistrationForm" style={{ color: '#e2e3db' }} >WrappedRegistrationForm</Link>
               </Menu.Item>
             </SubMenu>
+            <SubMenu
+              key="自定义组件"
+              title={<span><Icon type="user" /><span>自定义组件</span></span>}
+            >
+              <Menu.Item key="图片缩略图">
+                <Link to="/thumbnailExhibition" style={{ color: '#e2e3db' }} >图片缩略图</Link>
+              </Menu.Item>
+            </SubMenu>
           </Menu>
         </Sider>
         <Layout>

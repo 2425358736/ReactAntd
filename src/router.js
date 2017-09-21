@@ -6,6 +6,7 @@ import TableCom from './assembly/Table';
 import MenuLeft from './assembly/MenuLeft';
 import MenuComponent from './assembly/Menu';
 import WrappedRegistrationForm from './assembly/RegistrationForm';
+import ThumbnailExhibition from './assembly/Thumbnail';
 
 class RouterConfig extends React.Component {
   render() {
@@ -17,6 +18,7 @@ class RouterConfig extends React.Component {
           <Route path="/table" component={TableCom} />
           <Route path="/menuLeft" component={MenuLeft} />
           <Route path="/wrappedRegistrationForm" component={WrappedRegistrationForm} />
+          <Route path="/thumbnailExhibition" component={ThumbnailExhibition} />
         </Router>
       </App>
     );
