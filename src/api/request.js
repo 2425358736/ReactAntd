@@ -3,7 +3,7 @@ import axios from 'axios';
 const qs = require('qs');
 
 axios.defaults.headers.post['Content-Type'] = 'application/x-www-form-urlencoded';
-
+axios.defaults.withCredentials = true;
 axios.defaults.baseURL = 'http://localhost:8000/';
 
 // get查询

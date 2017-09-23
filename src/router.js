@@ -7,6 +7,8 @@ import MenuLeft from './assembly/MenuLeft';
 import MenuComponent from './assembly/Menu';
 import WrappedRegistrationForm from './assembly/RegistrationForm';
 import ThumbnailExhibition from './assembly/Thumbnail';
+import Login from './assembly/Login';
+import Shiro from './assembly/Shiro';
 
 class RouterConfig extends React.Component {
   render() {
@@ -19,6 +21,8 @@ class RouterConfig extends React.Component {
           <Route path="/menuLeft" component={MenuLeft} />
           <Route path="/wrappedRegistrationForm" component={WrappedRegistrationForm} />
           <Route path="/thumbnailExhibition" component={ThumbnailExhibition} />
+          <Route path="/login" component={Login} />
+          <Route path="/shiro" component={Shiro} />
         </Router>
       </App>
     );

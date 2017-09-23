@@ -5,6 +5,7 @@ class Thumbnail extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
+      // url 图片数组
       url: props.url,
       visible: false,
       src: '',
