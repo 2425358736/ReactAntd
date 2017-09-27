@@ -9,6 +9,7 @@ import WrappedRegistrationForm from './assembly/RegistrationForm';
 import ThumbnailExhibition from './assembly/Thumbnail';
 import Login from './assembly/Login';
 import Shiro from './assembly/Shiro';
+import Test from './assembly/Test';
 
 class RouterConfig extends React.Component {
   render() {
@@ -23,6 +24,7 @@ class RouterConfig extends React.Component {
           <Route path="/thumbnailExhibition" component={ThumbnailExhibition} />
           <Route path="/login" component={Login} />
           <Route path="/shiro" component={Shiro} />
+          <Route path="/test" component={Test} />
         </Router>
       </App>
     );
