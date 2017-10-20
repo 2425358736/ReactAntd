@@ -70,7 +70,7 @@ class SiderDemo extends React.Component {
               <span>菜单</span>
             </Menu.Item>
             <Menu.Item key="Table">
-              <Link to="/table" style={{ color: '#e2e3db' }} >
+              <Link to="/home/table" style={{ color: '#e2e3db' }} >
                 <Icon type="line-chart" />
                 <span>
                   Table
@@ -78,7 +78,7 @@ class SiderDemo extends React.Component {
               </Link>
             </Menu.Item>
             <Menu.Item key="Menu">
-              <Link to="/menuLeft" style={{ color: '#e2e3db' }} >
+              <Link to="/home/menuLeft" style={{ color: '#e2e3db' }} >
                 <Icon type="desktop" />
                 <span>
                   Menu
@@ -86,7 +86,7 @@ class SiderDemo extends React.Component {
               </Link>
             </Menu.Item>
             <Menu.Item key="Tree">
-              <Link to="/tree" style={{ color: '#e2e3db' }} >
+              <Link to="/home/tree" style={{ color: '#e2e3db' }} >
                 <Icon type="share-alt" />
                 <span>
                   Tree
@@ -98,7 +98,7 @@ class SiderDemo extends React.Component {
               title={<span><Icon type="user" /><span>Form</span></span>}
             >
               <Menu.Item key="WrappedRegistrationForm">
-                <Link to="/wrappedRegistrationForm" style={{ color: '#e2e3db' }} >WrappedRegistrationForm</Link>
+                <Link to="/home/wrappedRegistrationForm" style={{ color: '#e2e3db' }} >WrappedRegistrationForm</Link>
               </Menu.Item>
             </SubMenu>
             <SubMenu
@@ -106,7 +106,7 @@ class SiderDemo extends React.Component {
               title={<span><Icon type="user" /><span>自定义组件</span></span>}
             >
               <Menu.Item key="图片缩略图">
-                <Link to="/thumbnailExhibition" style={{ color: '#e2e3db' }} >图片缩略图</Link>
+                <Link to="/home/thumbnailExhibition" style={{ color: '#e2e3db' }} >图片缩略图</Link>
               </Menu.Item>
             </SubMenu>
             <SubMenu
@@ -114,7 +114,7 @@ class SiderDemo extends React.Component {
               title={<span><Icon type="user" /><span>外部组件</span></span>}
             >
               <Menu.Item key="富文本">
-                <Link to="/test" style={{ color: '#e2e3db' }} >富文本</Link>
+                <Link to="/home/test" style={{ color: '#e2e3db' }} >富文本</Link>
               </Menu.Item>
             </SubMenu>
           </Menu>
